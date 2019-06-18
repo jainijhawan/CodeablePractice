@@ -12,6 +12,9 @@
 		F704DECC22B803CC00E630D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F704DECA22B803CC00E630D8 /* Main.storyboard */; };
 		F704DECE22B803CE00E630D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F704DECD22B803CE00E630D8 /* Assets.xcassets */; };
 		F704DED122B803CE00E630D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F704DECF22B803CE00E630D8 /* LaunchScreen.storyboard */; };
+		F704DED922B805BF00E630D8 /* pincodeOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F704DED822B805BF00E630D8 /* pincodeOffice.swift */; };
+		F704DEDB22B8068E00E630D8 /* pincodeOfficeses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F704DEDA22B8068E00E630D8 /* pincodeOfficeses.swift */; };
+		F704DEDD22B95AE900E630D8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F704DEDC22B95AE900E630D8 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F704DECD22B803CE00E630D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F704DED022B803CE00E630D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F704DED222B803CE00E630D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F704DED822B805BF00E630D8 /* pincodeOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pincodeOffice.swift; sourceTree = "<group>"; };
+		F704DEDA22B8068E00E630D8 /* pincodeOfficeses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pincodeOfficeses.swift; sourceTree = "<group>"; };
+		F704DEDC22B95AE900E630D8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				F704DEC622B803CC00E630D8 /* AppDelegate.swift */,
 				F704DEC822B803CC00E630D8 /* ViewController.swift */,
+				F704DEDA22B8068E00E630D8 /* pincodeOfficeses.swift */,
+				F704DED822B805BF00E630D8 /* pincodeOffice.swift */,
 				F704DECA22B803CC00E630D8 /* Main.storyboard */,
 				F704DECD22B803CE00E630D8 /* Assets.xcassets */,
 				F704DECF22B803CE00E630D8 /* LaunchScreen.storyboard */,
 				F704DED222B803CE00E630D8 /* Info.plist */,
+				F704DEDC22B95AE900E630D8 /* CustomTableViewCell.swift */,
 			);
 			path = CodeableDecodeable;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F704DED922B805BF00E630D8 /* pincodeOffice.swift in Sources */,
+				F704DEDD22B95AE900E630D8 /* CustomTableViewCell.swift in Sources */,
 				F704DEC922B803CC00E630D8 /* ViewController.swift in Sources */,
+				F704DEDB22B8068E00E630D8 /* pincodeOfficeses.swift in Sources */,
 				F704DEC722B803CC00E630D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
